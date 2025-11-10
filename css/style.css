@@ -1,49 +1,124 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* Utility class*/
+a {
+text-decoration: none;
+color:black;
+}
 .back-pink {
-    background-color: pink;
+  background-color: rosybrown;
 }
 
 .back-green {
-    background-color: green;
+  background-color: green;
 }
 
 .back-blue {
-    background-color: blue;
+  background-color: blue;
 }
 
 .back-purple {
-    background-color: purple;
+  background-color: purple;
 }
 
 .back-gray {
-    background-color: gray;
+  background-color: gray;
 }
 
 .back-brown {
-    background-color: brown;
+  background-color: brown;
 }
 
 .back-black {
-    background-color: black;
+  background-color: black;
 }
 
 .back-red {
-    background-color: red;
+  background-color: red;
 }
 
 .back-white {
-    background-color: white;
+  background-color: white;
 }
 
 .border-dotted-black {
-    border-style: 2px dotted black;
+  border-style:dotted;
+  border-color: black;
 }
 
 .border-dotted-white {
-    border-style: 2px dotted white;
+  border-style:dotted;
+  border-color: white;
+}
+
+
+/*regole pagina*/
+.navigation-bar-cointainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px ;
+}
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 80%;
+}
+.link-navigation-bar {
+    display: flex;
+    list-style-type: none;
+    width: 50%;
+    justify-content: center;
+    height: 100%;
+}
+.logo-navigation-bar {
+    width:25%;
+    height: 100%;
+}
+.login-navigation-bar {
+    display: flex;
+    justify-content: flex-end;
+    width: 25%;
+    height: 100%;
+}
+.welcome-img-cointainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.welcome-img {
+    margin: 10px 0;
+    height: 300px;
+    width: 60%;
+}
+.equal-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.column-container {
+    display: flex;
+    width: 80%;
+    height: 350px;
+    margin: 20px 0;
+}
+.big-column {
+    width: 65%;
+}
+.little-column {
+    width: 35%;
+}
+.last-section {
+padding: 20px 0;
+}
+.article {
+    width: 80%;
+    height: 450px;
+    vertical-align: middle;
+    margin: 0 auto;
 }
