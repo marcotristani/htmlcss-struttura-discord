@@ -3,3 +3,47 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Utility class*/
+.back-pink {
+    background-color: pink;
+}
+
+.back-green {
+    background-color: green;
+}
+
+.back-blue {
+    background-color: blue;
+}
+
+.back-purple {
+    background-color: purple;
+}
+
+.back-gray {
+    background-color: gray;
+}
+
+.back-brown {
+    background-color: brown;
+}
+
+.back-black {
+    background-color: black;
+}
+
+.back-water {
+    background-color: red;
+}
+
+.back-white {
+    background-color: white;
+}
+
+.border-dotted-black {
+    border-style: 2px dotted black;
+}
+
+.border-dotted-white {
+    border-style: 2px dotted white;
+}
